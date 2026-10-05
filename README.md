@@ -15,7 +15,7 @@ Separating risk aversion from the elasticity of intertemporal substitution (EIS)
 
 ## Method
 
-The model is solved via value function iteration using adaptive sparse grids ([AdaptiveSparseGrids.jl](https://github.com/)) over the (debt, income) state space, with Gauss-Hermite quadrature for integrating over the income shock.
+The model is solved via value function iteration using adaptive sparse grids ([AdaptiveSparseGrids.jl](https://github.com/jacobadenbaum/AdaptiveSparseGrids.jl/tree/main)) over the (debt, income) state space, with Gauss-Hermite quadrature for integrating over the income shock.
 
 ## Requirements
 
